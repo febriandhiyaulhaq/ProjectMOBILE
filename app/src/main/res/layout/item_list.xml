@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itemlist_cv"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp"
+    android:paddingBottom="40dp">
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/sunset"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/itemlist_tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:elevation="10dp"
+                android:fontFamily="casual"
+                android:gravity="center_vertical"
+                android:text="Name Holiday"
+                android:textColor="#FFFAFA"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/itemlist_star_favorit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/love"/>
+
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

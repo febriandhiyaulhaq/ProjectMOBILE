@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.SaranFragment"
+
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragmentsaran"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_saran_list" />
+
+</LinearLayout>

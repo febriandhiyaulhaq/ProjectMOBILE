@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.activity.DetailCountryActivity"
+    android:background="@drawable/bbck"
+    app:layout_constraintCircleRadius="40dp"
+    android:layout_margin="10dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/lldetail"
+    >
+
+    <TextView
+
+        android:id="@+id/info_detail_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Title/Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:text="D a t e "
+        android:background="@drawable/rounded"
+
+        />
+
+    <TextView
+        android:id="@+id/info_detail_date"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded3"
+        android:text="value"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded"
+        android:text="S t a r t" />
+
+    <TextView
+        android:id="@+id/info_detail_start"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded3"
+        android:text="value" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded"
+        android:text="E n d" />
+
+    <TextView
+        android:id="@+id/info_detail_end"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded3"
+        android:text="value" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded"
+        android:text="T y p e" />
+
+    <TextView
+        android:id="@+id/info_detail_type"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded3"
+        android:text="value"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded"
+        android:text="C o u n t r y" />
+    <TextView
+        android:id="@+id/info_detail_country"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/rounded3"
+        android:text="value" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.WishListFragment"
+    android:orientation="vertical"
+    android:background="#B0C4DE">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded3"
+        android:textColor="#ffff"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="15dp"
+        android:text="Wish List"
+        android:textSize="24dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragmentfavorit_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_wishlist"/>
+</LinearLayout>
+

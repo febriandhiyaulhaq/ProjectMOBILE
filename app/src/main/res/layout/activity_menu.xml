@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/back2"
+    tools:context=".view.activity.MenuActivity">
+
+    <Button
+        android:id="@+id/btn_main"
+        android:textAllCaps="false"
+        android:text="Holiday List in England"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded2"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:layout_marginBottom="10dp"
+        />
+    <Button
+        android:id="@+id/btn_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded2"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:text="Add Your Visitor Profile"
+        />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded2"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:layout_marginTop="10dp"
+        android:text="Add Your Assessment"
+        android:layout_marginBottom="10dp"
+    />
+
+    <Button
+        android:id="@+id/btn_saran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded2"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:text="See Other Assessments"
+        />
+
+</LinearLayout>
